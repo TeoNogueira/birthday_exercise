@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap" rel="stylesheet">
+ 
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <h1 class="hero__title">
+                Venha participar do meu aniversário.
+                <br>
+                Contagem regressiva:
+                <br>
+                <span id="count"></span>
+            </h1>
+            <div class="info">
+                <ul class="info__list">
+                    <li class="info__list__item">
+                        <b>Endereço</b>
+                        Rua xxx, Nº xxx, Recife-PE, Cep: xxxxxxx
+                    </li>
+                    <li class="info__list__item">
+                        <b>Data Oficial</b>
+                        17/09/2023
+                    </li>
+                </ul>
+            </div>
+            <div class="convidado">
+                <p class="convidado__text">
+                    Eu aguardo você nesse local, não fique de fora, você é <strong>ESPECIAL</strong>  para mim!
+                </p>
+                <form class="convidado__form" id="form-invite">
+                    <label for="name" class="convidado__form__label">Digite seu nome:</label>
+                    <input type="text" class="convidado__form__input" id="name" required>
+                    <button type="submit" id="btn-invite" class="convidado__form__button">
+                        Eu vou!
+                    </button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <section class="aniversario aniversario--blue">
+        <div class="container" data-aos="zoom-in">
+            <div class="aniversario__details">
+                <h2 class="aniversario__details__title">
+                    Teremos a presença do Dj bot com toda animação no ar!
+                </h2>
+                <p class="aniversario__details__text">
+                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rutrum, velit ac hendrerit tincidunt,
+                    purus orci malesuada neque, a bibendum ipsum libero vel eros. Orci varius natoque penatibus et magnis dis parturient montes,
+                     nascetur ridiculus mus.
+                    Phasellus sit amet nibh et neque ultrices auctor scelerisque vel dolor. Cras efficitur porttitor bibendum.
+                </p>
+            </div>
+            <div class="aniversario__image">
+                <img src="images/dj.jpg" alt="DJ MUSIC">
+            </div>
+        </div>
+    </section>
+
+    <section class="aniversario aniversario--red aniversario--left">
+        <div class="container" data-aos="zoom-in">
+            <div class="aniversario__details">
+                <h2 class="aniversario__details__title">
+                   Playground exclusivo para as crianças
+                </h2>
+                <p class="aniversario__details__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rutrum, velit ac hendrerit tincidunt,
+                    purus orci malesuada neque, a bibendum ipsum libero vel eros. Orci varius natoque penatibus et magnis dis parturient montes,
+                     nascetur ridiculus mus.
+                    Phasellus sit amet nibh et neque ultrices auctor scelerisque vel dolor. Cras efficitur porttitor bibendum.
+                </p>
+            </div>
+            <div class="aniversario__image">
+                <img src="images/playground.jpg" alt="playground">
+            </div>
+        </div>
+    </section>
+
+    <section class="aniversario aniversario--blue">
+        <div class="container" data-aos="zoom-in">
+            <div class="aniversario__details">
+                <h2 class="aniversario__details__title">
+                   Self-service 24 horas!
+                </h2>
+                <p class="aniversario__details__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rutrum, velit ac hendrerit tincidunt,
+                    purus orci malesuada neque, a bibendum ipsum libero vel eros. Orci varius natoque penatibus et magnis dis parturient montes,
+                     nascetur ridiculus mus.
+                    Phasellus sit amet nibh et neque ultrices auctor scelerisque vel dolor. Cras efficitur porttitor bibendum.
+                </p>
+            </div>
+            <div class="aniversario__image">
+                <img src="images/comida.png" alt="food">
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
